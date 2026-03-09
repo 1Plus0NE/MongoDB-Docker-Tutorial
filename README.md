@@ -36,6 +36,20 @@ Explanation:
 - `-v <VOLUME_NAME>:/data/db` → mounts the volume to the data directory
 - `mongo` → image used
 
+## Starting and Stopping the Container
+
+Start an existing container:
+
+```bash
+docker start <CONTAINER_NAME>
+```
+
+Stop a running container:
+
+```bash
+docker stop <CONTAINER_NAME>
+```
+
 To view running containers:
 
 ```bash
